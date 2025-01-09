@@ -42,8 +42,6 @@ function Action() {
         <input id="text" name="email" onChange={onChange} className="nodrag" />
         <label htmlFor="text">WIR id</label>
         <input disabled id="text" name="wirid" onChange={onChange} value={wirId} className="nodrag" />
-        <br/>
-        <button>Generate full json</button>
       </div>
       <Handle type="source" position={Position.Right} id="a" />
     </div>
