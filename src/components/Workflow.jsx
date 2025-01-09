@@ -133,7 +133,7 @@ function Workflow() {
         edges={edges}
       >
         <MiniMap />
-        <Background variant="dots" gap={12} size={1} />
+        <Background bgColor="#222f3e" color="grey" variant="dots" gap={12} size={1} />
       </ReactFlow>
     </div>
   );
