@@ -1,0 +1,41 @@
+[
+    {
+        "id": "event_002",
+        "Type": "Event",
+        "Node": "event",
+        "order": "1",
+        "inputs": {
+            "wir_id": "",
+            "org_id": ""
+        },
+        "outputs": [
+            "out_result"
+        ]
+    },
+    {
+        "id": "condition_if_002",
+        "Type": "Condition",
+        "Node": "condition_if",
+        "order": "2",
+        "inputs": {
+            "status": ""
+        },
+        "outputs": [
+            ""
+        ]
+    },
+    {
+        "id": "action_assign_to_user_002",
+        "Type": "Action",
+        "Node": "assign_to_user",
+        "order": "3",
+        "inputs": {
+            "wir_id": "",
+            "email_id": "",
+            "role": ""
+        },
+        "outputs": [
+            ""
+        ]
+    }
+]
